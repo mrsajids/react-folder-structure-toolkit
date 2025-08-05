@@ -1,13 +1,13 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { fetchPosts } from '../../services/postsApi';
+import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+import { fetchPosts } from "../../services/postsApi";
 
-export const getPosts = createAsyncThunk('posts/getPosts', async () => {
+export const getPosts = createAsyncThunk("posts/getPosts", async () => {
   const response = await fetchPosts();
   return response;
 });
 
 const postsSlice = createSlice({
-  name: 'posts',
+  name: "posts",
   initialState: {
     posts: [],
     loading: false,
