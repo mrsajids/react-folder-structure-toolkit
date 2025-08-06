@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getPosts } from '../../redux-toolkit/slices/postsSlice';
-import PostList from '../../components/PostList';
+import PostList from '../../components/post/PostList';
 
 const PostsPage = () => {
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 {
   "name": "projectstructurewithtoolkit",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,8 @@
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.11.0",
     "bootstrap": "^5.3.7",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.6",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.1.0",

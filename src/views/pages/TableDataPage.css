@@ -1,0 +1,82 @@
+/* Custom pagination styling to match the original design */
+.custom-paginator {
+  background: white;
+  border: none;
+  padding: 16px 24px;
+  border-top: 1px solid #e9ecef;
+}
+
+.custom-paginator .p-paginator-pages .p-paginator-page {
+  background: transparent;
+  border: 1px solid #dee2e6;
+  color: #6c757d;
+  margin: 0 2px;
+  border-radius: 4px;
+  min-width: 32px;
+  height: 32px;
+}
+
+.custom-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+.custom-paginator .p-paginator-pages .p-paginator-page:hover {
+  background: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.custom-paginator .p-paginator-first,
+.custom-paginator .p-paginator-prev,
+.custom-paginator .p-paginator-next,
+.custom-paginator .p-paginator-last {
+  background: transparent;
+  border: 1px solid #dee2e6;
+  color: #6c757d;
+  margin: 0 2px;
+  border-radius: 4px;
+  min-width: 32px;
+  height: 32px;
+}
+
+.custom-paginator .p-paginator-first:hover,
+.custom-paginator .p-paginator-prev:hover,
+.custom-paginator .p-paginator-next:hover,
+.custom-paginator .p-paginator-last:hover {
+  background: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.custom-paginator .p-paginator-current {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Remove default DataTable borders and styling */
+.p-datatable .p-datatable-tbody > tr {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background: #f8f9fa;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  border: none;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border: none;
+}
+
+/* Remove focus outlines */
+.p-button:focus {
+  box-shadow: none;
+}
+
+.p-paginator-page:focus {
+  box-shadow: none;
+}

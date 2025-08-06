@@ -1,7 +1,7 @@
 
 
 import { Card, Container, Row, Col } from 'react-bootstrap';
-import LoginForm from '../../components/LoginForm';
+import LoginForm from '../../components/login/LoginForm'
 
 const LoginPage = () => {
 
