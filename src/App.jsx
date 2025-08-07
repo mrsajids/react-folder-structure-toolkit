@@ -8,6 +8,7 @@ import PrimeReact from "./views/pages/PrimeReact";
 import TableDataPage from "./views/pages/TableDataPage";
 import Layout from "./components/layout/Layout";
 import MyTable from "./views/pages/MyTable";
+import ProductPage from "./views/pages/ProductPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="posts" element={<PostsPage />} />
           <Route path="prime-controls" element={<PrimeReact />} />
           <Route path="table-data" element={<MyTable />} />
+          <Route path="products" element={<ProductPage />} />
         </Route>
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

@@ -20,6 +20,7 @@ const Header = () => {
             <Nav.Link as={Link} to="/posts">Posts</Nav.Link>
             <Nav.Link as={Link} to="/prime-controls">Prime</Nav.Link>
             <Nav.Link as={Link} to="/table-data">Table Data</Nav.Link>
+            <Nav.Link as={Link} to="/products">Products</Nav.Link>
           </Nav>
           <Button variant="outline-dark" size='sm' onClick={handleLogout}>Logout</Button>
         </Navbar.Collapse>

@@ -2,6 +2,7 @@ import { AutoComplete } from "primereact/autocomplete";
 import { Calendar } from "primereact/calendar";
 import { useState } from "react";
 import "primereact/resources/themes/bootstrap4-light-purple/theme.css";
+
 import { InputText } from "primereact/inputtext";
 
 const PrimeReact = () => {
@@ -24,9 +25,9 @@ const PrimeReact = () => {
         onChange={(e) => setValue(e.value)}
       />
       <br /> <br />
-      <Calendar value={date} onChange={(e) => setDate(e.value)} />
+      <Calendar value={date} onChange={(e) => setDate(e.value)}  />
       <br /> <br />
-      <InputText value={value} onChange={(e) => setValue(e.target.value)} />
+      <InputText value={value} onChange={(e) => setValue(e.target.value)}c />
       <br /> <br />
       <InputText keyfilter="num" placeholder="Integers" />
     </>
